@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Velluto Fragrance — Perfumes árabes, importados e decants</title>
+<meta name="description" content="Perfumes árabes, importados e de nicho, em frasco ou decant de 5 mL. Experimente antes de investir no frasco.">
+<meta name="theme-color" content="#09251c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Velluto Fragrance — O detalhe invisível que marca.">
+<meta property="og:description" content="Perfumes árabes, importados e de nicho, em frasco ou decant de 5 mL.">
+<meta property="og:image" content="assets/images/brand/logo-velluto-verde.png">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap">
+<link rel="stylesheet" href="assets/css/home.css">
+<script type="module" src="assets/js/home.js"></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<!-- 1. CABEÇALHO -->
+<header class="cab" id="cab">
+  <div class="wrap cab-linha">
+    <a class="cab-logo" href="index.html" aria-label="Velluto Fragrance, página inicial"><img src="assets/images/brand/logo-velluto-claro.png" alt="Velluto Fragrance" width="900" height="363"></a>
+    <nav class="cab-nav" aria-label="Principal">
+      <a href="perfumes.html">Perfumes</a>
+      <a href="decants.html">Decants</a>
+      <a href="produtos.html?genero=masculino">Masculinos</a>
+      <a href="produtos.html?genero=feminino">Femininos</a>
+      <a href="clube-velluto.html">Clube Velluto</a>
+    </nav>
+    <form class="busca" role="search" action="produtos.html">
+      <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label class="sr-only" for="busca">Buscar perfume</label>
+      <input id="busca" name="q" type="search" placeholder="Buscar perfume ou nota" autocomplete="off" aria-controls="busca-res">
+      <div class="busca-res" id="busca-res"></div>
+    </form>
+    <div class="cab-acoes">
+      <a class="ic so-desk" href="conta.html" aria-label="Minha conta"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-5 4-7 8-7s6.5 2 8 7"/></svg></a>
+      <a class="ic" href="favoritos.html" aria-label="Favoritos"><svg class="i" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.4a4.3 4.3 0 0 1 7.5 2.4C19.5 15.4 12 20 12 20Z"/></svg><span class="qtd" data-fav-count>0</span></a>
+      <a class="ic" href="carrinho.html" aria-label="Carrinho"><svg class="i" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg><span class="qtd" data-cart-count>0</span></a>
+      <button class="ic menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="painel" data-menu><svg class="i" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="painel" id="painel" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="painel-topo">
+    <img src="assets/images/brand/logo-velluto-claro.png" alt="Velluto Fragrance" width="900" height="363">
+    <button class="ic" type="button" aria-label="Fechar menu" data-menu-fechar><svg class="i" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+  </div>
+  <form action="produtos.html" role="search"><label class="sr-only" for="busca-m">Buscar perfume</label><input id="busca-m" name="q" type="search" placeholder="Buscar perfume ou nota"></form>
+  <nav aria-label="Menu do celular">
+    <a href="perfumes.html">Perfumes</a>
+    <a href="decants.html">Decants</a>
+    <a href="produtos.html?genero=masculino">Masculinos</a>
+    <a href="produtos.html?genero=feminino">Femininos</a>
+    <a href="quiz.html">Descubra seu perfume</a>
+    <a href="clube-velluto.html">Clube Velluto</a>
+    <a href="conta.html">Minha conta</a>
+  </nav>
+</div>
+
+<main id="conteudo">
+
+  <!-- 2. HERO: fotografia de campanha por perfume; textos e botões em HTML, preços do catálogo -->
+  <section class="hero" id="hero" aria-roledescription="carrossel" aria-label="Perfumes em destaque">
+    <!-- camadas de imagem: a ativa aparece por cima; a troca é um cruzamento de opacidade -->
+    <div class="hero-fotos" id="hero-fotos">
+      <picture class="hero-foto ativa">
+        <img src="assets/home/cenas/hero-asad.webp" srcset="assets/home/cenas/hero-asad-1200.webp 1200w, assets/home/cenas/hero-asad.webp 1942w" sizes="100vw" width="1942" height="809" alt="Frasco do perfume Asad, da Lattafa, sobre uma pedra com madeira e âmbar" fetchpriority="high" decoding="async">
+      </picture>
+    </div>
+    <div class="hero-veu" aria-hidden="true"></div>
+    <div class="wrap hero-conteudo">
+      <div class="hero-texto" id="hero-texto" aria-live="polite">
+        <p class="micro" id="hero-marca">Lattafa</p>
+        <h1 id="hero-nome">Asad</h1>
+        <p class="hero-desc" id="hero-desc">Amadeirado profundo com coração de oud defumado e âmbar quente. Uma composição de presença marcante e masculinidade atemporal.</p>
+        <div class="hero-compra" id="hero-compra">
+          <button class="bt bt-ouro" type="button" id="hero-frasco"><span>Comprar o frasco</span><b>R$ 260,00</b></button>
+          <button class="bt bt-contorno" type="button" id="hero-decant"><span>Experimentar 5 mL</span><b>R$ 30,00</b></button>
+        </div>
+      </div>
+      <div class="hero-controles" id="hero-controles" hidden>
+        <div class="hero-indices" id="hero-indices" role="group" aria-label="Escolher perfume em destaque"></div>
+        <div class="hero-setas">
+          <button class="seta" type="button" id="hero-ant" aria-label="Perfume anterior"><svg class="i" viewBox="0 0 24 24"><path d="M19 12H5m5-5-5 5 5 5"/></svg></button>
+          <button class="seta" type="button" id="hero-prox" aria-label="Próximo perfume"><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. VITRINE: 6 perfumes (3 × 2 no computador) -->
+  <section class="secao vendidos" id="mais-vendidos" aria-labelledby="t-mais">
+    <div class="wrap-amplo">
+      <div class="secao-cab">
+        <div>
+          <h2 class="titulo-secao" id="t-mais">Os mais vendidos</h2>
+          <p>Encontre a sua próxima assinatura.</p>
+        </div>
+      </div>
+      <div class="grade-prod" id="grade-mais"></div>
+      <p class="vitrine-pe"><a class="link" href="perfumes.html">Explorar todos os perfumes <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a></p>
+    </div>
+  </section>
+
+  <!-- 4. COMO VOCÊ QUER SER LEMBRADO? — um banner fotográfico por perfil, com troca automática -->
+  <section class="lembrar" id="lembrar" aria-labelledby="t-lembrar">
+    <div class="wrap lembrar-cab">
+      <h2 class="titulo-secao" id="t-lembrar">Como você quer ser lembrado?</h2>
+      <p>Descubra a fragrância que traduz a sua presença.</p>
+      <div class="lembrar-controles">
+        <!-- sem JavaScript, cada perfil é um link para o catálogo filtrado -->
+        <div class="lembrar-abas" id="lembrar-abas" aria-label="Escolher o perfil">
+          <a class="aba" href="produtos.html?familia=oriental">Marcante</a>
+          <a class="aba" href="produtos.html?familia=floral">Elegante</a>
+          <a class="aba" href="produtos.html?familia=doce">Sedutor</a>
+          <a class="aba" href="produtos.html?familia=aquatico">Refrescante</a>
+        </div>
+        <button class="lembrar-pausa" type="button" id="lembrar-pausa" aria-pressed="false" aria-label="Pausar apresentação" hidden>
+          <svg class="i ic-pausa" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6v12M15 6v12"/></svg>
+          <svg class="i ic-tocar" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10-6.5-10-6.5Z"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="lembrar-banner" id="lembrar-banner">
+      <div class="lembrar-fotos" id="lembrar-fotos">
+        <picture class="lembrar-foto ativa"><img src="assets/home/cenas/perfil-marcante.webp" srcset="assets/home/cenas/perfil-marcante-1200.webp 1200w, assets/home/cenas/perfil-marcante.webp 2000w" sizes="100vw" width="2000" height="741" alt="" loading="lazy" decoding="async"></picture>
+      </div>
+      <div class="lembrar-veu" aria-hidden="true"></div>
+      <div class="wrap lembrar-textos" id="lembrar-textos">
+        <div class="lt ativa">
+          <p class="micro">Presença que permanece</p>
+          <h3>Deixe sua marca.</h3>
+          <p class="lt-desc">Fragrâncias intensas, de oud, âmbar e madeiras escuras, para quem gosta de ser lembrado.</p>
+          <a class="bt-linha" href="produtos.html?familia=oriental">Explorar perfumes marcantes <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. EXPERIMENTE ANTES DE INVESTIR NO FRASCO: o que é o decant, o volume, a embalagem e onde escolher -->
+  <section class="secao decants" aria-labelledby="t-decants">
+    <div class="wrap decants-grade" id="decants-grade">
+      <div class="decants-cab">
+        <p class="micro micro-escuro">Decants de 5 <span class="ml">mL</span></p>
+        <h2 id="t-decants">Experimente antes de investir no frasco.</h2>
+      </div>
+      <p class="decants-desc">Use a fragrância na sua rotina e descubra como ela evolui na sua pele. Cada decant Velluto leva 5 mL do perfume escolhido.</p>
+      <div class="decants-foto" id="decants-foto" hidden>
+        <!-- fotografia dos decants reais da Velluto (CONFIG.cenas.decants); fica oculta até a foto existir -->
+      </div>
+      <div class="decants-acoes">
+        <a class="bt-escuro" href="decants.html">Escolher meu decant <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+        <details class="decants-faq">
+          <summary>O que é um decant?</summary>
+          <p>É uma porção do perfume original transferida para um frasco menor com borrifador. Na Velluto, cada decant contém 5 mL.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. CLUBE VELLUTO -->
+  <section class="clube" aria-labelledby="t-clube">
+    <div class="wrap clube-grade">
+      <div class="clube-texto">
+        <p class="micro">Programa de fidelidade</p>
+        <h2 id="t-clube">Clube Velluto</h2>
+        <p>Cada compra soma pontos. Ao chegar em cada marco, você libera uma recompensa. As regras e os níveis completos estão na página do clube.</p>
+        <a class="bt-linha" href="clube-velluto.html">Conhecer o Clube Velluto <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+      </div>
+      <div class="clube-foto" id="clube-foto" aria-hidden="true">
+        <div class="cartao"><img src="assets/images/brand/simbolo-dourado.png" alt="" loading="lazy" width="120" height="120"><span>Clube Velluto</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. SOBRE A VELLUTO (compacto) -->
+  <section class="sobre" aria-labelledby="t-sobre">
+    <div class="wrap sobre-grade">
+      <img class="sobre-marca" src="assets/images/brand/simbolo-dourado.png" alt="" aria-hidden="true" loading="lazy" width="120" height="120">
+      <div class="sobre-texto">
+        <p class="micro micro-escuro">Sobre a Velluto</p>
+        <h2 id="t-sobre">O detalhe invisível que marca.</h2>
+        <p>A Velluto Fragrance reúne perfumes árabes, importados e de nicho escolhidos um a um, com decants de 5 mL para experimentar e atendimento próximo para ajudar na escolha.</p>
+        <a class="link" href="sobre.html">Conhecer a Velluto <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+      </div>
+      <ul class="diferenciais">
+        <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 20 6v6c0 5-3.4 8-8 9-4.6-1-8-4-8-9V6l8-3Z"/><path d="m9 12 2 2 4-4"/></svg>Curadoria de fragrâncias</li>
+        <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v10H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg>Envio para todo o Brasil</li>
+        <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4A8 8 0 1 1 20 11.5Z"/></svg>Atendimento personalizado</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<!-- 8. RODAPÉ -->
+<footer class="rod">
+  <img class="rod-marca" src="assets/images/brand/simbolo-dourado.png" alt="" aria-hidden="true" loading="lazy">
+  <div class="wrap">
+    <div class="rod-grade">
+      <div class="rod-marca-col">
+        <img src="assets/images/brand/logo-velluto-claro.png" alt="Velluto Fragrance" width="900" height="363" loading="lazy">
+        <p>Perfumes árabes, importados e de nicho, em frasco ou decant de 5 mL.</p>
+      </div>
+      <div><h3>Loja</h3><ul><li><a href="perfumes.html">Perfumes</a></li><li><a href="decants.html">Decants</a></li><li><a href="produtos.html?genero=masculino">Masculinos</a></li><li><a href="produtos.html?genero=feminino">Femininos</a></li></ul></div>
+      <div><h3>Ajuda</h3><ul><li><a href="https://wa.me/5511989358089?text=Ol%C3%A1%2C%20quero%20ajuda%20para%20escolher%20um%20perfume" target="_blank" rel="noopener">WhatsApp</a></li><li><a href="contato.html">Contato</a></li><li><a href="trocas.html">Trocas e devoluções</a></li><li><a href="quiz.html">Descubra seu perfume</a></li></ul></div>
+      <div><h3>Institucional</h3><ul><li><a href="sobre.html">Sobre a Velluto</a></li><li><a href="clube-velluto.html">Clube Velluto</a></li><li><a href="privacidade.html">Privacidade</a></li><li><a href="termos.html">Termos de uso</a></li></ul></div>
+    </div>
+    <div class="rod-legal">
+      <span>© 2026 Velluto Fragrance. Todos os direitos reservados.</span>
+      <span>Pagamento por Pix e cartão de crédito</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp: botão flutuante discreto, sem animação nem mensagem automática -->
+<a class="zap-flutuante" id="zap-flutuante" href="https://wa.me/5511989358089?text=Ol%C3%A1%2C%20quero%20ajuda%20para%20escolher%20um%20perfume" target="_blank" rel="noopener" aria-label="Falar com a Velluto pelo WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.2A12.7 12.7 0 0 0 5.1 22.4L3.3 28.8l6.6-1.7A12.7 12.7 0 1 0 16 3.2Zm0 23.2a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.5 10.5 0 1 1 16 26.4Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-2.5-1.6 9.6 9.6 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5a.6.6 0 0 0 0-.6c0-.2-.7-1.7-1-2.3s-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2.1.9 2.9 1 3.9.8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.4Z"/></svg>
+</a>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

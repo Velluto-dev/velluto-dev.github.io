@@ -1,0 +1,65 @@
+[
+  {
+    "familia": "amadeirado",
+    "arquivo": "assets/home/familias/amadeirado.webp",
+    "titulo": "Firewood stacks (Unsplash)",
+    "autor": "Pietro De Grandi peter_mc_greats",
+    "licenca": "CC0",
+    "pagina": "https://commons.wikimedia.org/w/index.php?curid=61822278",
+    "credito": "\"Firewood stacks (Unsplash)\" by Pietro De Grandi peter_mc_greats, CC0, via Wikimedia Commons"
+  },
+  {
+    "familia": "oriental",
+    "arquivo": "assets/home/familias/oriental.webp",
+    "titulo": "Untitled",
+    "autor": null,
+    "licenca": "CC0",
+    "pagina": "https://www.rawpixel.com/image/5949782/free-public-domain-cc0-photo",
+    "credito": "\"Untitled\", CC0, via rawpixel"
+  },
+  {
+    "familia": "doce",
+    "arquivo": "assets/home/familias/doce.webp",
+    "titulo": "Untitled",
+    "autor": null,
+    "licenca": "CC0",
+    "pagina": "https://www.rawpixel.com/image/5945248/free-public-domain-cc0-photo",
+    "credito": "\"Untitled\", CC0, via rawpixel"
+  },
+  {
+    "familia": "floral",
+    "arquivo": "assets/home/familias/floral.webp",
+    "titulo": "A close-up of a vibrant red rose in full bloom, featuring velvety petals with intricate folds.",
+    "autor": "Nilesh Shiragave",
+    "licenca": "CC0",
+    "pagina": "https://wordpress.org/photos/photo/242684bab6/",
+    "credito": "\"A close-up of a vibrant red rose in full bloom, featuring velvety petals with intricate f…\" by Nilesh Shiragave, CC0, via WordPress Photo Directory"
+  },
+  {
+    "familia": "citrico",
+    "arquivo": "assets/home/familias/citrico.webp",
+    "titulo": "Dried lemon slices (20240120)",
+    "autor": "Fumikas Sagisavas",
+    "licenca": "CC0",
+    "pagina": "https://commons.wikimedia.org/w/index.php?curid=151972705",
+    "credito": "\"Dried lemon slices (20240120)\" by Fumikas Sagisavas, CC0, via Wikimedia Commons"
+  },
+  {
+    "familia": "aquatico",
+    "arquivo": "assets/home/familias/aquatico.webp",
+    "titulo": "A serene body of water reflecting the dim light, with gentle ripples on the surface. The background is dark, possibly indicating a shoreline or dense vegetation, suggesting it is evening or approaching dusk.",
+    "autor": "nkeller15",
+    "licenca": "CC0",
+    "pagina": "https://wordpress.org/photos/photo/5456245b97/",
+    "credito": "\"A serene body of water reflecting the dim light, with gentle ripples on the surface. The…\" by nkeller15, CC0, via WordPress Photo Directory"
+  },
+  {
+    "familia": "especiado",
+    "arquivo": "assets/home/familias/especiado.webp",
+    "titulo": "Free close cinnamon sticks image",
+    "autor": null,
+    "licenca": "CC0",
+    "pagina": "https://www.rawpixel.com/image/5927000/photo-image-public-domain-free",
+    "credito": "\"Free close cinnamon sticks image\", CC0, via rawpixel"
+  }
+]
